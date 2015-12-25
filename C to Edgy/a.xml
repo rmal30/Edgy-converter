@@ -1,0 +1,13 @@
+<project name="a.xml" app="Snap! 4.0, http://snap.berkeley.edu" version="1" uuid="d49433b0-ddbc-11e4-8037-db7ae9465080">
+<stage name="Stage" width="480" height="360" costume="0" tempo="60" threadsafe="false" lines="round" codify="false" scheduled="false" id="1">
+<variables></variables><blocks></blocks><scripts></scripts>
+<sprites>
+<sprite name="Graph" idx="1" x="0" y="0" heading="90" scale="1" rotation="1" draggable="false" costume="0" color="80,80,80" pen="tip" id="8">
+<costumes><list id="9"></list></costumes> <sounds><list id="10"></list></sounds>
+<variables></variables>
+<blocks></blocks>
+<scripts>
+		<script><block s="receiveGo"></block><block s="doSetVar"><l>a</l><l>0</l></block><block s="doChangeVar"><l>a</l><l>1</l></block><block s="doSetVar"><l>a</l><block s="reportNewList"><list><l>1</l><l>2</l></list></block></block><block s="doSayFor"><block s="reportListItem"><l>1</l><block var="a"/></block><l>2</l></block><block s="doAddToList"><l>thing</l><block var="a"/></block><block s="doDeleteFromList"><l>1</l><block var="a"/></block><block s="doConcatToList"><block s="reportNewList"><list><l>1</l></list></block><block var="a"/></block><block s="doIfElse"><block s="reportNot"><block s="reportEquals"><block s="reportSum"><l>2</l><l>1</l></block><l>3</l></block></block><script><block s="doWait"><l>1</l></block></script><script><block s="doPauseAll"></block></script></block></script>
+</scripts>
+<graph> {&quot;directed&quot;:false,&quot;multigraph&quot;:false,&quot;graph&quot;:[[&quot;__costumes__&quot;,{}]],&quot;nodes&quot;:[],&quot;links&quot;:[]}</graph><nodeattrs></nodeattrs><edgeattrs></edgeattrs></sprite><watcher var="a" style="normal" x="92" y="43" color="243,118,29" extX="80" extY="70"/></sprites><nodeattrs></nodeattrs><edgeattrs></edgeattrs></stage><hidden></hidden><headers></headers><code></code><blocks></blocks><variables><variable name="a"><list id="1"><list id="2"><list id="3"><item><l>0</l></item><item><l>1</l></item></list><list id="4"><item><l>2</l></item><item><l>3</l></item></list></list><list id="5"><item><l>4</l></item><item><l>5</l></item></list></list></variable></variables></project>
+			
